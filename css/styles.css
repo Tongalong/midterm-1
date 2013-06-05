@@ -1,3 +1,54 @@
 body{
 	background-color: #000;
 }
+
+
+#wrapper{
+	max-width: 960px;
+	width:100%;
+	min-height: 900px;
+	height : 100%;
+	display:block;
+	margin:0 auto;
+	background-color: white;
+}
+
+#wrapper header{
+	width:100%;
+	background-color: #ff0000;
+}
+
+.content{
+	/*width:100%;
+	background:#ff0233;
+	margin-left:20px;
+	margin-right:20px;*/
+}
+
+.content article{
+	width:70%;
+	max-width: 600px;
+	float:left;
+	display: block;
+	min-height: 360px;
+	background:#ff8877;
+
+}
+.content > aside{
+	width:30%;
+	max-width: 360px;
+	float:left;
+	display: block;
+	min-height: 360px;
+	background:#ff9933;
+}
+
+
+
+footer{
+	max-height: 200px;
+	display:block;
+	clear:both;
+	width:100%;
+	background-color: #ff00ff;
+}
